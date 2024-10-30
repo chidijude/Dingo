@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dingo.Api", "src\Dingo.Api\Dingo.Api.csproj", "{9F88CC00-F15A-4962-B7D0-A7EF329EEE4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F88CC00-F15A-4962-B7D0-A7EF329EEE4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F88CC00-F15A-4962-B7D0-A7EF329EEE4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F88CC00-F15A-4962-B7D0-A7EF329EEE4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F88CC00-F15A-4962-B7D0-A7EF329EEE4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {402B32E8-6A94-4722-9CD1-B4395A3FE7DA}
+	EndGlobalSection
+EndGlobal

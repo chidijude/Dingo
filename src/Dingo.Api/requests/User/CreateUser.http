@@ -1,0 +1,25 @@
+@DingoApi_HostAddress = http://localhost:5261
+@token = 333
+
+# @name createe
+
+POST {{DingoApi_HostAddress}}/users
+Content-Type: application/json
+
+
+{
+   "firstName" : "Chidi",
+   "LastName" : "Jude",   
+   "Email" : "cjude@tech.inc",
+   "Password" : "password",
+   "Username" : "cjude"
+}
+
+
+### Get base on location header
+
+GET {{createe.response.headers.Location}}
+
+###
+@Dingo = variable value
+GET {{DingoApi_HostAddress}}/users
